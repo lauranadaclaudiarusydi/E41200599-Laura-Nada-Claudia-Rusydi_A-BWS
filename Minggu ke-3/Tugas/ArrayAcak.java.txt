@@ -1,0 +1,34 @@
+/**
+ *
+ * @author AUDY
+ */
+import java.util.*;
+import java.util.Scanner;
+public class randomArray {
+    public static void main(String[] args) {
+        
+        Scanner pArray= new Scanner(System.in);
+        System.out.print("Masukkan panjang array : ");
+        int a = pArray.nextInt();
+        
+        int array []= new int[a];
+        
+        for (int i = 0; i < array.length; i++){
+            System.out.print("Masukkan nilai array ke- " + (i+1) + ":");
+            array [i] = pArray.nextInt();
+            
+            
+            
+        }
+        System.out.println("ini adalah array yang anda buat : ");
+        for (int i = 0; i < array.length; i++){
+            System.out.print(array[i] + " ");
+            
+        }
+        System.out.println(" ");
+        
+      
+      
+    }
+    
+}

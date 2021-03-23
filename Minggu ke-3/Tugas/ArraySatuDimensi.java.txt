@@ -1,0 +1,22 @@
+
+
+public class array {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     String nama[] = {"laura","nada","claudia","rusydi"};
+     
+    for (int j=0; j<nama.length; j++){
+        System.out.print(nama[j]);
+        System.out.print(" ");
+        
+    }
+     
+  
+     
+  }
+    
+}
+
